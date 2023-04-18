@@ -7,7 +7,7 @@ import Classes from "./pages/Classes";
 import JoinUs from "./pages/JoinUs";
 import Navbar from "./components/Navbar";
 import Pricing from "./pages/Pricing";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/joinus" element={<JoinUs />} />
         <Route path="/pricing" element={<Pricing/>} />
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
